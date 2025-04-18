@@ -1,9 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import CatPassportGenerator from './CatPassportGenerator.jsx';
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <CatPassportGenerator />
-  </React.StrictMode>,
-);
+git add src/main.jsx
+git commit -m "Fix correct path to CatPassportGenerator for Vercel"
+git push
