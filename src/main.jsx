@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import CatPassportGenerator from './CatPassportGenerator';
-import './index.css'; // если файла нет — убери эту строку
+import CatPassportGenerator from './CatPassportGenerator.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <CatPassportGenerator />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
